@@ -1,0 +1,8 @@
+# 使用Spring Cloud Config Server时，应在 bootstrap.yml 中指定：
+spring:
+  cloud:
+    config:
+      uri: http://192.168.231.129:8888
+      name: itoken-eureka
+      label: master
+      profile: dev
